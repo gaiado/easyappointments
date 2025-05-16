@@ -47,7 +47,7 @@ services:
     platform: linux/amd64
     image: swaggerapi/swagger-ui:v5.10.5
     ports:
-      - "8000:8080"
+      - "8050:8080"
     volumes:
       - ./openapi.yml:/usr/share/nginx/html/openapi.yml
     environment:
