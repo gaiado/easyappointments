@@ -30,7 +30,7 @@ class Config
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------
 
-    const BASE_URL = 'http://localhost';
+    const BASE_URL = 'https://calendar.go1.it.com';
     const LANGUAGE = 'english';
     const DEBUG_MODE = false;
 
@@ -47,7 +47,7 @@ class Config
     // GOOGLE CALENDAR SYNC
     // ------------------------------------------------------------------------
 
-    const GOOGLE_SYNC_FEATURE = false; // Enter TRUE or FALSE
+    const GOOGLE_SYNC_FEATURE = true; // Enter TRUE or FALSE
     const GOOGLE_CLIENT_ID = '950306549214-v11dg54j7sb6i9ub668bhtquqa8khiok.apps.googleusercontent.com';
     const GOOGLE_CLIENT_SECRET = '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';
 }
